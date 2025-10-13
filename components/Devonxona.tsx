@@ -79,7 +79,7 @@ const Devonxona: React.FC = () => {
             <div className="flex flex-col h-full text-white">
                 <header className="flex-shrink-0 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-6">
                     <div>
-                        <h1 className="text-3xl font-bold tracking-wider">DEVONXONA</h1>
+                        <h1 className="text-[40px] leading-[48px] font-bold tracking-[-0.5px]">DEVONXONA</h1>
                         <p className="text-white/60">Sizda {filteredCorrespondences.length} ta hujjat mavjud</p>
                     </div>
                     <div className="w-full md:w-auto flex flex-col sm:flex-row items-center gap-3">
@@ -105,7 +105,7 @@ const Devonxona: React.FC = () => {
 
                 <div className="flex-grow flex gap-8 mt-4 overflow-hidden">
                     <aside className="w-60 flex-shrink-0 pr-4 border-r border-white/10 overflow-y-auto">
-                        <h2 className="text-sm font-semibold uppercase text-white/50 mb-4">Hujjat turi</h2>
+                        <h2 className="text-[32px] leading-[40px] font-semibold tracking-[-0.4px]">Hujjat turi</h2>
                         <ul className="space-y-2 mb-8">
                             <li>
                                 <button
@@ -124,7 +124,7 @@ const Devonxona: React.FC = () => {
                                 </button>
                             </li>
                         </ul>
-                        <h2 className="text-sm font-semibold uppercase text-white/50 mb-4">Kartoteka</h2>
+                        <h2 className="text-[32px] leading-[40px] font-semibold tracking-[-0.4px]">Kartoteka</h2>
                         <ul className="space-y-1">
                             {KARTOTEKA_ITEMS.map(item => (
                                 <li key={item}>

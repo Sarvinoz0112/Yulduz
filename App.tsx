@@ -36,21 +36,21 @@ const App: React.FC = () => {
                   className="absolute right-20 bottom-20 w-96 drop-shadow-xl"
                 />
 
-                <div className="flex flex-col space-y-4 bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-lg w-80 text-white">
-                  <h2 className="text-center text-lg tracking-wider">TIZIMGA KIRISH</h2>
+                <div className="flex flex-col space-y-4 bg-black/30 backdrop-blur-sm p-8 rounded-lg shadow-lg w-96 text-white">
+                  <h2 className="text-center text-lg tracking-wider font-bold">TIZIMGA KIRISH</h2>
                   <input
                     type="text"
                     placeholder="Login"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
-                    className="bg-transparent border-b border-gray-300 text-sm px-2 py-1 focus:outline-none focus:border-white"
+                    className="bg-transparent border-b border-gray-300 text-sm px-2 py-1 text-center placeholder:text-center focus:outline-none focus:border-white" 
                   />
                   <input
                     type="password"
                     placeholder="Parol"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="bg-transparent border-b border-gray-300 text-sm px-2 py-1 focus:outline-none focus:border-white"
+                    className="bg-transparent border-b border-gray-300 text-sm px-2 py-1 text-center placeholder:text-center focus:outline-none focus:border-white"
                   />
                   <button
                     onClick={() => login(username, password)} // <- вот тут логин
