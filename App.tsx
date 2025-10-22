@@ -55,9 +55,9 @@ const App: React.FC = () => {
                 <div
                   className="
                     flex flex-col gap-[clamp(0.75rem,1.4vmin,3.5rem)] 
-                    bg-black/35 backdrop-blur-md
+                    bg-black/35 backdrop-blur-sm
                     p-[clamp(1rem,2.2vmin,6rem)]
-                    rounded-2xl shadow-2xl
+                    rounded-lg shadow-2xl
                     w-[clamp(28rem,50vmin,192rem)] 
                     text-white
                   "
